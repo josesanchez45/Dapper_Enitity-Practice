@@ -10,4 +10,4 @@ string sqlCommand = "SELECT GETDATE()";
 
 DateTime rightNow = dbConnection.QuerySingle<DateTime>(sqlCommand); 
 
-Console.WriteLine($"{rightNow}");
+Console.WriteLine($"Current Date and time: {rightNow}");
